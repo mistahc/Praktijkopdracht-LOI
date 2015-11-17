@@ -1,0 +1,393 @@
+@media only screen and (min-width:128px){
+	body{
+	font-size:25%;
+	}
+}
+
+@media only screen and (min-width:350px){
+	body{
+	font-size:37.5%;
+	}
+}
+
+@media only screen and (min-width:600px){
+	body{
+	font-size:50%;
+	}
+}
+
+@media only screen and (min-width:750px){
+	body{
+	font-size:62.5%;
+	}
+}
+
+@media only screen and (min-width:900px){
+	body{
+	font-size:75%;
+	}
+}
+
+@media only screen and (min-width:1024px){
+	body{
+	font-size:87.5%;
+	}
+}
+
+@media only screen and (min-width:1280px){
+	body{
+	font-size:100%;
+	}
+}
+
+@media only screen and (min-width:1600px){
+	body{
+	font-size:112.5%;
+	}
+}
+
+
+
+@charset "utf-8";
+
+body{background-color: #0F3D16;
+	}
+
+#logo				{width:71.111em;height:8.333em;margin:auto auto;}
+#logo img			{width:100%;height:100%}
+
+#wrapper			{width:71.111em;margin:0em auto 0.556em auto;background-color: #E0DEDE;}
+			
+#top				{margin: 0 0;border-bottom:0.222em #000000 solid;width:71.111em;height:14em;}
+#top img			{display:block;width:100%;height:100%}
+
+#welkomnav			{float:left;width:22.222em; margin-left:2.222em;border-bottom:0.222em #000000 solid;}
+#welkomnav ul		{width:100%;}
+#welkomnav ul li	{display:inline;padding:0 5.556em 0 0;}
+#welkomnav a		{text-decoration:none;}
+
+
+#topnav				{float:right; margin-right:1.667em;border-bottom:0.222em #000000 solid;width:37.778em;}
+#topnav ul			{width:100%;}
+#topnav ul li		{list-style-type:none;display:inline;padding:0 5.556em 0 0;}
+#topnav a			{text-decoration:none;}
+
+#topnav ul li ul  	{z-index:4;margin:0;padding:0;margin-top:1.15em;position:absolute;width:9.889em;}
+#topnav ul li ul li {display:block;background-color:#E0DEDE;border-bottom:0.111em solid black;border-left:0.111em solid black;border-right:0.111em solid black;padding:0.278em;}
+#topnav ul li ul a:nth-child(5) li {border-bottom-left-radius:0.278em;border-bottom-right-radius:0.278em}
+#topnav ul li ul li:hover {background-color:#A9A3A3;}
+
+.partClick {cursor:default;}
+.bedrijfClick {cursor:default;}
+
+.inloggenClick		{border-bottom-left-radius:0.278em;border-bottom-right-radius:0.278em}	
+
+#loginForm			{display:none;background-color:#FFFFFF;width:22.222em;margin:auto;border:0.176em solid black;z-index:1;position:relative;}
+#loginForm ul li	{list-style-type:none;padding-right:1.111em;}
+#loginForm input	{font-size:0.75em;width:87.5%;}
+
+#loginForm .login	{font-size:0.75em;width:6.250em;margin-top:1.875em;margin-left:auto;margin-right:auto;background-color: #FFFFFF;}
+
+#closeButton		{width:1em;height:1em;border-bottom:1px solid black;border-right:1px solid black;}
+#closeButton:hover	{background-color: #D4D4D4;}
+
+a:link				{color: #000000; }
+a:visited			{color: #000000; }
+a:active			{color: #767676; }
+a:hover				{color: #FFFFFF; }
+a:focus				{color: #FFFFFF; }
+
+#welkom				{float:left; width:25em; margin-left:2.500em;margin-top:3.125em;font-size:0.889em;}		
+
+#Slider				{position:relative;float:right; margin-right:2.222em;margin-top:3.889em; border:1px solid black;width:35em;height:13.889em;}
+#Slider img			{position:absolute;z-index:1;width:100%;height:100%;}
+#Slider img.active	{z-index:3;}
+
+/*
+
+#interieurfoto		{float:right; margin-right:2.222em;margin-top:3.889em; border:1px solid black;width:35em;height:13.889em;}
+#interieurfoto object	{display:block;width:100%;height:100%;}
+#interieurfoto img	{display:block;width:100%;height:100%;}
+
+*/
+
+
+#tuinVoorbeeldenMiniTekst{float:left;clear:both;width:23em;margin-left:2.222em;margin-top:2.222em;margin-bottom:1.389em;border-bottom: 1px solid black;border-top:1px solid black;font-weight:bold;}
+
+#recenteProjecten{float:left;width:27.778em;margin-left:2.8em;;margin-bottom:1.5em;margin-top:1em;font-size:0.778em}	
+
+#tuinVoorbeeldenMini{float:left;width:27.778em;margin-left:2.222em;z-index:0;margin-top:0.5em;}
+#tuinVoorbeeldenMini img{margin:0 0.556em 0.556em 0;border:1px solid black;width:7.056em;height:4.356em}
+
+#reacties			{float:right;width:27.778em;margin-top:0.556em;margin-bottom:2.778em;margin-right:10em;border-radius:5px;}
+#reacties p			{font-size:0.778em;margin-top:0;}
+#reacties h4		{margin-bottom:0.268em;}
+#reacties h5		{margin-bottom:0.268em;}
+
+#contactButton		{margin-top:2.5em;width:11em;background-color:white;text-align:center;border-radius:5px;margin-bottom:1.875em}
+#contactButton a	{text-decoration:none;}
+#contactButton a h4	{padding-top:0.556em;padding-bottom:0.556em;text-decoration:none;}
+#contactButton a h4:hover	{color:black;}
+
+#footer				{clear: both; margin-top: 27.778em; margin-left: 2.222em;border-top: #000000 dotted 1px;}
+#footer	p			{padding-top:-0.611em;}
+
+#disclaimer			{float:left; font-size:0.778em;}
+
+#social-media		{margin-left:50em; margin-right:0.176em;}
+#social-media ul li {display:inline;list-style-type:none;}
+#social-media img	{width:2.667em;height:2.667em;}
+
+/*AangelegdeTuinen*/
+
+#tuinVoorbeelden	{float:left;width:22.222em;margin-left:2.222em;margin-top:3.889em;margin-bottom:1.389em}	
+#tuinVoorbeelden img{width:18.889em;height:11.111em;}
+
+.tuinen				{border: 4px solid #EFEFEF;box-shadow:inset 0 0 2px 2px #999; padding:2px;margin-bottom:1.389em;}
+
+#tuinBeschrijvingen {width:37.778em;height:55.556em;float:right;margin:2.778em 8.889em 1.389em 0;}	
+
+.beschrijvingen		{width:22.222em;height:11.667em;margin-bottom:1.611em;vertical-align: text-top}	
+
+.beschrijvingen p	{font-size:0.778em;margin-top:0em;}
+.beschrijvingen h3	{margin-bottom:0.333em;}
+.beschrijvingen a	{text-decoration:none;color:blue;}
+.beschrijvingen a:hover	{color:white;}	
+span				{font-size:0.714em;}
+
+/*Wie zijn wij?*/
+
+#wieZijnWij					{float:left; width:25em; margin-left:2.500em;margin-top:3.125em;font-size:0.889em;margin-bottom:1.875em}	
+
+#wieZijnWij p:last-child	{font-size:0.889em;}	
+
+#wieZijnWij	a				{text-decoration:underline;color:blue;}
+
+#familieVanGroop			{float:right; margin-right:2.222em;margin-top:3.889em;}
+#familieVanGroop img	 	{border:1px solid black;}
+#familieVanGroop .linksrechts{width:8.889em;height:11.667em;}
+#familieVanGroop .midden	{width:16.667em; height:7.778em}
+
+#medewerksters				{float:right; margin-right:15em;margin-top:5.556em;}
+#medewerksters img	 		{border:1px solid black;width:22.222em;height:11.667em}
+
+
+
+
+/*FAQ*/
+
+#FAQ								{float:left; width:22.222em; margin-left:2.222em;margin-top:1.667em;}
+
+#veelgesteldeVragen					{float:left;clear:left; width:22.222em; margin-left:2.222em;margin-top:1.667em;margin-bottom:2.222em;}
+#veelgesteldeVragen ul				{margin:0;padding:0.556em 0 0.556em 0;border-top: 1px solid black;}
+#veelgesteldeVragen	ul li			{list-style-type:none;font-size:0.889em;}
+#veelgesteldeVragen	ul li ul		{margin:0.556em 0 0.556em 0 ;padding:0;background-color:white;border-bottom: 1px solid black;}	
+#veelgesteldeVragen	ul li ul li		{padding:0 0.556em 0.176em 0.556em;}
+
+#veelgesteldeVragen ul:last-child	{border-bottom:1px solid black;}
+
+#veelgesteldeVragen	a				{text-decoration:none;}
+
+#veelgesteldeVragen a:link			{color: #000000 }
+#veelgesteldeVragen a:visited		{color: #000000; }
+#veelgesteldeVragen a:active		{color: #000000; }
+#veelgesteldeVragen a:hover			{color: #FFFFFF; }
+#veelgesteldeVragen a:focus			{color: #000000;}
+
+.answer								{display:none;}
+
+
+#FAQform							{float:right;margin:0 17.222em 2.778em 0; margin-left:2.222em;}	
+#FAQform ol li						{list-style-type:none;}
+
+#FAQ2								{float:right;margin:-3.125em 16.250em 1.875em 0;font-size:0.889em;}
+#FAQ2 a								{color:blue;}
+
+
+			
+/*Contact Form Styles*/				
+	
+	
+#form				{float:left; width:22.222em; margin-left:2.222em;margin-top:1.667em;}
+#form ol li			{list-style-type:none;}
+#form input			{width:95%;font-size:0.722em}
+#form ol li:last-child	{width:30%;}
+#form textarea		{width:95%;height:11.5em;font-size:0.722em}
+
+input,textarea		{display:block;border:1px #000000 solid;padding:0.4em; }
+label				{margin-bottom:5px;}
+
+/*Contact Iframe*/
+
+#iframe				{float:right; margin-right:3.667em;margin-top:3.889em; width:33.333em;height:13.889em;border:1px solid black}
+#iframe	iframe		{width:100%;height:100%;}
+
+/*KAN OOK NOG: input:hover, textarea:hover	{border: 1px  #376AC4 solid;}*/
+
+label				{display:block;margin-top:0.556em;}
+
+.submit				{width:7.629em;margin-top:2.308em;background-color: #FFFFFF;font-size:0.722em}
+
+#openingstijden		{float:right;margin:3.889em 1em 2.778em 0;width:37em;}
+
+td, th				{font-size:0.889em;line-height:0.875em;text-align:left;line-height:1.250em;}
+
+.feestdagen			{margin-top:2.778em;}
+
+
+
+/*Particulier dropdown-menu*/
+
+.partDropdown	{display:none;}
+
+/*Bedrijf dropdown-menu*/
+
+.bedrijfDropdown	{display:none;}
+.bedrijfDropdown li	{margin-left:9.883em;width:9.889em;}
+
+
+
+
+
+/*Vaste planten images*/
+
+#vastePlantenDiv		{float:right; margin-right:1.5em;margin-top:3.889em;}
+#vastePlantenDivTwee    {float:right; margin-right:1.5em;margin-top:2.778em;}
+#vastePlantenDivDrie    {float:right; margin-right:1.5em;margin-top:2.778em;width:37.556em;}
+
+.vastePlanten			{width:8.611em;border: 0.222em solid #EFEFEF;box-shadow:inset 0 0 0.111em 0.111em #999; padding:0.111em;}	
+
+a:hover .vastePlanten	{border: 0.222em solid #EFEFEF; box-shadow: inset 0 0 0.111em 0.111em #999, 0 0 0.111em 0.056em #999;}
+
+.Meer a:link				{color: #000000; }
+.Meer a:visited				{color: #000000; }
+.Meer a:active				{color: #000000; }
+.Meer a:hover				{color: #000000; font-weight:bold; }
+.Meer a:focus				{color: #000000; }
+
+.Meer{width:8.611em; height:1.611em;padding-left:0.111em;padding-right:0.111em;position:relative;}		
+.Meer p	{text-decoration: underline;font-size:0.889em;position:absolute;margin:0;padding:0;right:0.883em;top:0.389em;}
+
+#vastePlantenDivVier {float:right; margin-right:1.5em;margin-top:2.778em;display:none;}
+#vastePlantenDivVijf {float:right; margin-right:1.5em;margin-top:2.778em;width:37.556em;display:none;}
+
+
+/*Vaste planten korte beschrijvingen*/
+
+#vastePlantenBeschrijving	{float:right;clear:right;margin-top:-0.222em;margin-right:1.5em; height:1.611em;}
+#vastePlantenBeschrijving div	{display:inline-block;}
+
+.vpBeschrijving	{width:8.611em;height:1.611em; background-color:#FFFFFF
+				;border-right:0.222em solid #EFEFEF;border-bottom:0.222em solid  #EFEFEF;border-left:0.222em solid #EFEFEF;
+				padding-left:0.111em;padding-right:0.111em;box-shadow:inset 0 0 0.222em #999;position:relative;}
+.vpBeschrijving	p	{text-decoration:none;font-size:0.889em;position:absolute;margin:0;padding:0;padding-left:0.7em;padding-top:0.438em;}
+
+#vastePlantenBeschrijvingTwee	{float:right;margin-top:-0.222em;margin-right:1.5em; height:1.611em;}
+#vastePlantenBeschrijvingTwee div	{display:inline-block;}
+
+#vastePlantenBeschrijvingDrie	{float:right;margin-top:-0.222em;margin-right:0.8em;margin-bottom:2.778em; width:38.222em; height:1.611em;}
+#vastePlantenBeschrijvingDrie div	{display:inline-block;}
+
+#vastePlantenBeschrijvingVier	{float:right;margin-top:-0.222em;margin-right:1.5em;height:1.611em;display:none;}
+#vastePlantenBeschrijvingVier div	{display:inline-block;}
+
+#vastePlantenBeschrijvingVijf	{float:right;margin-top:-0.222em;margin-right:0.8em;margin-bottom:2.778em;width:38.222em; height:1.611em;display:none;}
+#vastePlantenBeschrijvingVijf div	{display:inline-block;}
+
+
+/*Vaste planten volledige beschrijvingen*/
+#vpVolledigeBeschrijvingBlanco	{float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+.blanco{width:25em;margin-top:2.500em;margin-bottom:0.625em;}
+
+.vpVolImg{width:25em;margin-top:2.500em;border:4px solid #EFEFEF;box-shadow: inset 2px 2px 2px 2px #999, 2px 2px 2px 1px #999; padding:0.125em;}
+
+#vpVolledigeBeschrijvingAnemn	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingCamas	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingColch	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingDigit	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingEuphlath	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingKnaut	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingLathra	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingOxaace	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingRosarub	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingTulipacum	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingTulipakwe	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingTulipurum	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingFrittmeleagris	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingNicotiana	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+#vpVolledigeBeschrijvingPrimeliator	{display:none;float:left; width:25em; margin-left:2.500em;margin-top:1.875em;font-size:0.889em;}
+
+.prijs	{font-weight:bold;}
+
+
+
+/*UwAccount*/
+
+#toplinks 						{float:right;width:67.2em;margin:2.5em -34em 0 0;font-size:0.556em;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;}
+#toplinks img					{width:2em;height:2em;}
+#toplinks li					{list-style-type:none;display:inline;}
+
+#bedrijfsGegevens				{float:left; width:22.222em; margin:3.889em 0 2.778em 2.222em;	font-size:1em;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;}	
+
+#bedrijfsGegevens table			{margin-top:2.778em;}
+#bedrijfsGegevens td			{font-size:0.889em;}
+#bedrijfsGegevens p				{border-bottom:1px solid black;width:8.333em;font-weight:bold;0}	
+#bedrijfsGegevens input			{font-size:0.832em;margin-left:3em;margin-top:0.769em;width:15.385em;height:1.15em;border:0.08em solid #929292;}
+#bedrijfsGegevens input:hover	{border:1px solid black;}
+#bedrijfsGegevens input:focus	{border:1px solid black;outline:0;}
+#bedrijfsGegevens select		{font-size:0.832em;margin-left:3em;margin-top:0.769em;height:1.923em;border:1px solid black;outline:0;}
+
+
+#bestelling						{float:right;margin:3.056em auto 2.778em auto;font-size:1em;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;width:37.333em;}
+#bestelling p					{border-bottom:1px solid black;width:6.944em;margin-top:2.778em;font-weight:bold;0}	
+#bestelling table				{margin-top:2.778em;}
+#bestelling #totaalBedrag		{margin-top:1.111em;}
+#bestelling td					{padding-top:0.769em;font-size:0.889em;}
+#bestelling td:nth-child(2)		{padding-left:9.375em;}
+#bestelling td:nth-child(4)		{padding-left:6.25em;}
+#bestelling td:nth-child(5)		{padding-left:0.625em;width:9.375em;background-color:white;}
+#bestelling select				{font-size:0.832em;width:3.462em;height:1.9em;border:1px solid black;outline:0;}
+		
+#artikel						{border-bottom:1px solid black}
+
+#totaalBedrag td:nth-child(1)	{width:3.75em}
+#totaalBedrag td:nth-child(2)	{padding-left:9.375em}				
+#totaalBedrag td:nth-child(3)	{padding-left:5.313em;}
+#totaalBedrag td:nth-child(4)	{padding-left:0.625em;width:9.375em;background-color:white;}
+
+#bezorgAdres td					{font-size:0.778em;background-color:white;width:28.571em;border:none;padding-top:0.769em;}
+
+#bestelling a					{font-size:1em;color:blue;}
+
+#bezorgAdres .wijzigen			{background:none;width:2.222em;}
+#bezorgAdres .wijzigen a		{margin-left:-9.063em}
+
+#factuurAdres .wijzigen			{background:none;width:2.222em;}
+#factuurAdres .wijzigen a		{margin-left:-9.063em}
+#factuurAdres td				{font-size:0.778em;background-color:white;width:28.571em;border:none;padding-top:0.769em;}
+
+#bestelling input				{font-size:0.778em;width:11.3em;}
+
+.plaatsButton					{background-color: #FFFFFF;margin-top:50px;}
+
+
+
+
+/*welkomAccount*/
+
+#welkomAccount					{width:71.111em;text-align:center;padding-top:3.889em;margin-bottom:2.778em;clear:right;}
+
+#welkomAccountTekst				{width:37.5em;margin:0 auto 0 auto;font-size:0.889em;border:1px solid black;}
+
+#welkomAccountTekst	p			{padding:0 0.625em;}
+
+
+
+
+/*BestelAccount*/
+
+#bezorgadres2					{margin-top:5.556em;}
+
+#bezorgadres2 a					{color:blue;font-size:0.778em;}
+
+
